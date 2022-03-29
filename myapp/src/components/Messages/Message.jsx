@@ -1,9 +1,15 @@
 import './Message.styles.css';
 
-export const Message =({ name, lastName }) =>{
+export const Message =({ name, text }) =>{
     return (
+
+        <div className ="conversation-container">
         <h3 className="message">
-          I am a message: {name}, {lastName}
+         <div> {name}</div>
+            <div>Message: </div>
+            <div>{text}</div>
             </h3>
+        </div>
+
     );
     }

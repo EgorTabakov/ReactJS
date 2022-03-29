@@ -11,8 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53bc24e9-0acb-4273-8ff7-7115622e5d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/Messages/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/Messages/Message.styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/components/Form/Form.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/components/Messages/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Messages/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/components/Messages/Message.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Messages/Message.styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="HW1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,8 +75,16 @@
       <option name="presentableId" value="Default" />
       <updated>1647947376577</updated>
       <workItem from="1647947377910" duration="1464000" />
-      <workItem from="1647948877551" duration="1499000" />
+      <workItem from="1647948877551" duration="25768000" />
     </task>
+    <task id="LOCAL-00001" summary="hw-1">
+      <created>1647950637483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647950637483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,15 +102,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw-1" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="184" y="9" key="SettingsEditor" timestamp="1647948977679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1647948977679" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1647947544224">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1647950649440">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1647947544224" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1647950649440" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647947524224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
