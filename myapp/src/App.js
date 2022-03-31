@@ -1,32 +1,57 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {useEffect, useState} from "react";
-import {Message} from './components/Messages/Message';
 import {Form} from './components/Form/Form';
-
-const name = "Me";
+import {AUTHORS} from "./utils/constants";
+import {MessageList} from "./components/MessageList/MessageList";
+import {ChatList} from "./components/ChatList/ChatList";
 
 function App() {
-
+    const chat = [{
+        name: '1 chat',
+            },
+        {
+            name: '2 chat',
+        },
+    ]
     const [messages, setMessages] = useState([]);
-        const addMessage = (newText) => {
-        setMessages([...messages, {text: newText, author: name}]);
 
+    const addMessage = (newMsg) => {
+        setMessages([...messages, newMsg]);
     }
 
+    const sendMessage = (text) => {
+        addMessage({
+            author: AUTHORS.human,
+            text,
+            id: `msg-${Date.now()}`,
+        });
+    };
+
     useEffect(() => {
-        if (messages.length && messages[messages.length -1].author === name) {
-            setMessages([...messages, {text: 'Answer from Robot', author: 'Robot'}]);
+        let timeout;
+        if (messages[messages.length - 1]?.author === AUTHORS.human) {
+            timeout = setTimeout(() => {
+                addMessage({
+                    author: AUTHORS.robot,
+                    text: 'hello',
+                    id: `msg-${Date.now()}`,
+                });
+            }, 1000);
+        }
+        return () => {
+            clearTimeout(timeout);
         }
     }, [messages]);
 
     return (
         <div className="App">
-            {messages.map((msg) => (
-                <Message text={msg.text} name={msg.author}/>
-            ))}
-
-            <Form onSubmit={addMessage}/>
+            <div className="leftBar">
+                <ChatList chat={chat}/>
+            </div>
+            <div className="main">
+                <MessageList messages={messages}/>
+                <Form onSubmit={sendMessage}/>
+            </div>
         </div>
     );
 }
