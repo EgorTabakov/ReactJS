@@ -11,20 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53bc24e9-0acb-4273-8ff7-7115622e5d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/ChatList/Chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/ChatList/ChatList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/ChatList/ChatList.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/MessageList/MessageList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/src/utils/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/components/Form/Form.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Form/Form.styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/components/Messages/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Messages/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/components/Messages/Message.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Messages/Message.styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647947376577</updated>
       <workItem from="1647947377910" duration="1464000" />
-      <workItem from="1647948877551" duration="39297000" />
+      <workItem from="1647948877551" duration="40913000" />
     </task>
     <task id="LOCAL-00001" summary="hw-1">
       <created>1647950637483</created>
@@ -98,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648540041861</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hw-3">
+      <created>1648720157454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648720157454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,17 +116,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw-1" />
     <MESSAGE value="hw-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw-2" />
+    <MESSAGE value="hw-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw-3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="9" key="SettingsEditor" timestamp="1647948977679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1647948977679" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1648540053903">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1648720163870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1648540053903" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1648720163870" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647947524224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
