@@ -12,8 +12,7 @@ const initMessages = {
 export function Chat() {
 
     const {id} = useParams();
-    const params = useParams();
-    console.log(params);
+
     const [messages, setMessages] = useState(initMessages);
 
     const addMessage = (newMsg) => {

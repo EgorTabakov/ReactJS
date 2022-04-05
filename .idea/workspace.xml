@@ -11,13 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53bc24e9-0acb-4273-8ff7-7115622e5d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/src/screens/Chat/Chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/screens/Profile/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/store/profile/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/store/profile/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/components/ChatList/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/ChatList/Chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/components/ChatList/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/ChatList/ChatList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/screens/Chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/screens/Chat/Chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW3" />
+        <entry key="$PROJECT_DIR$" value="HW-4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647947376577</updated>
       <workItem from="1647947377910" duration="1464000" />
-      <workItem from="1647948877551" duration="53398000" />
+      <workItem from="1647948877551" duration="61682000" />
     </task>
     <task id="LOCAL-00001" summary="hw-1">
       <created>1647950637483</created>
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649058455967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hw-4">
+      <created>1649078014078</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649078014078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,17 +139,18 @@
     <MESSAGE value="hw-2" />
     <MESSAGE value="hw-3" />
     <MESSAGE value="hw-3 UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw-3 UI" />
+    <MESSAGE value="hw-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw-4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="9" key="SettingsEditor" timestamp="1647948977679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1647948977679" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1649058460938">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1649078021200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1649058460938" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1649078021200" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647947524224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
