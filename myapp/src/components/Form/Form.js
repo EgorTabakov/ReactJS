@@ -1,7 +1,8 @@
 import './Form.styles.css';
+import Button from "@mui/material/Button"
 import {useEffect, useRef, useState} from "react";
 
-export const Form =({ onSubmit }) => {
+export const Form =({ onSubmit, buttonName }) => {
     const [value, setValue] = useState('');
 
     const inputRef = useRef();
@@ -25,7 +26,8 @@ export const Form =({ onSubmit }) => {
     return (
         <form className="form-style" onSubmit={handleSubmit}>
         <input value={value} onChange={handleChange} type="text" ref={inputRef} />
-            <input className = "messageSubmit" type="submit" />
+            <Button variant = "contained" color ="secondary" className = "messageSubmit" type="submit" >{buttonName} </Button>
         </form>
     )
+
 }
