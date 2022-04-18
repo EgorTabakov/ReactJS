@@ -22,7 +22,7 @@ export const Profile = () => {
                 <label htmlFor="checkbox">Show name : </label>
                 {showName && <span> {name}</span>}
             </div>
-            <Form onSubmit={handleSubmit}/>
+            <Form onSubmit={handleSubmit} buttonName="Ваше имя"/>
         </>
     )
 };

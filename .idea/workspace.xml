@@ -11,18 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53bc24e9-0acb-4273-8ff7-7115622e5d17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myapp/src/screens/Articles/Articles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/store/articles/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/store/articles/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/store/articles/selector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/components/ChatList/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/ChatList/ChatList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/components/Form/Form.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Form/Form.styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/screens/Chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/screens/Chat/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/screens/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/screens/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/store/messages/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/store/messages/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/store/messages/selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/store/messages/selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/utils/constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +41,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW6" />
+        <entry key="$PROJECT_DIR$" value="HW7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="26jqWlvPzPV8A77cxTceE156xX1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -85,7 +85,7 @@
       <workItem from="1649666476190" duration="31222000" />
       <workItem from="1649928870962" duration="5590000" />
       <workItem from="1649936800573" duration="1066000" />
-      <workItem from="1649938511464" duration="882000" />
+      <workItem from="1649938511464" duration="13054000" />
     </task>
     <task id="LOCAL-00001" summary="hw-1">
       <created>1647950637483</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649761458610</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW7">
+      <created>1649939515858</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649939515858</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +169,8 @@
     <MESSAGE value="hw-4" />
     <MESSAGE value="hw-5" />
     <MESSAGE value="HW6" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW6" />
+    <MESSAGE value="HW7" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1649407643830">
@@ -173,10 +181,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1647948977679" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1649761469851">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1649939523250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1649761469851" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1649939523250" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647947524224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

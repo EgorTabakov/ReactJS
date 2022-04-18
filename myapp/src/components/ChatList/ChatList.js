@@ -8,7 +8,7 @@ import {addChat, deleteChat} from "../../store/chats/actions";
 import {initMessageForChat, removeMessage} from "../../store/messages/actions";
 import shallowEqual from "react-redux/lib/utils/shallowEqual";
 import Button from "@mui/material/Button"
-import DeleteIcon from '@mui/icons-material/Delete';
+import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 
 export const ChatList = () => {
     const dispatch = useDispatch();
