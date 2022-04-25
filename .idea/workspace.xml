@@ -11,19 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53bc24e9-0acb-4273-8ff7-7115622e5d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/LoginForm/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/PrivateRoute/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/src/components/PrivateRoute/PublicRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp/src/services/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/components/Form/__tests__/Form.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/components/MessageList/__tests__/MessageList.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/components/Messages/__tests__/Message.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/store/articles/__tests__/actions.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/src/store/articles/__tests__/reducer.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/components/ChatList/ChatList.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/ChatList/ChatList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/screens/Chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/screens/Chat/Chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/screens/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/screens/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/screens/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/screens/Profile/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/src/store/profile/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/store/profile/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/components/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW8" />
+        <entry key="$PROJECT_DIR$" value="HW9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,10 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Egor\Desktop\Егор обучение\OSPanel\domains\localhost\ReactJS\myapp\src\components\MessageList\__tests__" />
+      <recent name="C:\Users\Egor\Desktop\Егор обучение\OSPanel\domains\localhost\ReactJS\myapp\src\store\articles" />
       <recent name="C:\Users\Egor\Desktop\Егор обучение\OSPanel\domains\localhost\ReactJS\myapp\src" />
       <recent name="C:\Users\Egor\Desktop\Егор обучение\OSPanel\domains\localhost\ReactJS\myapp" />
       <recent name="C:\Users\Egor\Desktop\Егор обучение\OSPanel\domains\localhost\ReactJS\myapp\src\components\MessageList" />
-      <recent name="C:\Users\Egor\Desktop\Егор обучение\OSPanel\domains\localhost\ReactJS\myapp\src\components\Message" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -91,7 +90,11 @@
       <workItem from="1649928870962" duration="5590000" />
       <workItem from="1649936800573" duration="1066000" />
       <workItem from="1649938511464" duration="26625000" />
-      <workItem from="1650439014096" duration="32896000" />
+      <workItem from="1650439014096" duration="34258000" />
+      <workItem from="1650616225344" duration="628000" />
+      <workItem from="1650618896690" duration="365000" />
+      <workItem from="1650619284625" duration="66000" />
+      <workItem from="1650621709832" duration="9221000" />
     </task>
     <task id="LOCAL-00001" summary="hw-1">
       <created>1647950637483</created>
@@ -156,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650281334218</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW9">
+      <created>1650614208072</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650614208072</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +194,8 @@
     <MESSAGE value="HW6" />
     <MESSAGE value="HW7" />
     <MESSAGE value="HW8" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW8" />
+    <MESSAGE value="HW9" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1649407643830">
@@ -195,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1647948977679" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1650281351925">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1650614214592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1650281351925" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1650614214592" />
     <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647947524224">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -207,5 +218,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1649758460604" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1650622547989">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1650622547989" />
   </component>
 </project>

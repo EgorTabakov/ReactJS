@@ -26,7 +26,7 @@ export const Form =({ onSubmit, buttonName }) => {
     return (
         <form className="form-style" onSubmit={handleSubmit}>
         <input value={value} onChange={handleChange} type="text" ref={inputRef} />
-            <Button variant = "contained" color ="secondary" className = "messageSubmit" type="submit" >{buttonName} </Button>
+            <Button data-testid="custom-element" variant = "contained" color ="secondary" className = "messageSubmit" type="submit" >{buttonName} </Button>
         </form>
     )
 
